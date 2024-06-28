@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+    This employee ID, gives out the information about TODO list employee.
+"""
+
+
 import requests
 import sys
 
