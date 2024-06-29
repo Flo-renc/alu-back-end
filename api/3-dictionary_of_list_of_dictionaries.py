@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Python script that exports data in JSON format.
+a script that exports data in JSON format.
 """
 import json
 import requests
@@ -18,4 +18,4 @@ if __name__ == "__main__":
                 url + "todos", params={"userId": user.get("id")}
             ).json()]
             for user in users
-        }, jsonfile)
+        }, jsonfile))
